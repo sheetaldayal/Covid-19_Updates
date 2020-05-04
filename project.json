@@ -1,0 +1,44 @@
+{
+  "name": "Covid-19 cases",
+  "description": "covid-19 cases update",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath": "[20.4.7369.30616-alpha]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.8.2-preview]",
+    "UiPath.GSuite.Activities": "[1.4.0]",
+    "UiPath.Mail.Activities": "[1.8.2-preview]",
+    "UiPath.System.Activities": "[20.3.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.3.0-alpha]",
+    "UiPath.Word.Activities": "[1.4.1-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.3.0.84",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
